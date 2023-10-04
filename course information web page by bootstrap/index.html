@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information of Classes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin: 6px;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <!--giving the image-->
+          <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-amd" viewBox="0 0 16 16">
+            <path d="m.334 0 4.358 4.359h7.15v7.15l4.358 4.358V0H.334ZM.2 9.72l4.487-4.488v6.281h6.28L6.48 16H.2V9.72Z"/>
+          </svg></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#scrollspyHeading2">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#scrollspyHeading3">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#scroll">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <!--sliding of the image-->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators" id="scrollspyHeading1" >
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/img1.jpg" class="d-block w-100" alt="..." height="600px">
+            <div class="carousel-caption d-none d-md-block" style="color: white;">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/image3.jpg" class="d-block w-100" alt="..." height="600px">
+            <div class="carousel-caption d-none d-md-block"  style="color: white;">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/image1.jpg" class="d-block w-100" alt="..." height="600px">
+            <div class="carousel-caption d-none d-md-block"  style="color: white;">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button><br>
+      </div>
+
+      <div class="container-fluid">
+        <!--tagline-->
+        <div class="row" id="scrollspyHeading2">
+            <div class="col-12">
+                <h1 class="display-6 text-center mt-5 mb-2 ">Couress Which we are provided </h1><br>
+                
+            </div>
+        </div>
+        <!--feature-->
+
+        <div class="row justify-content-evenly " id="scrollspyHeading3">
+            <div class="col-3 text-center mt-5">
+              <h1><i class="bi bi-file-code-fill text-primary"></i></h1>
+              <h5>developing the website</h5>
+              <p>this is the course which are providing the free development knowledge of website</p>
+            </div>
+            <div class="col-3 text-center mt-5"><h1><i class="bi bi-easel-fill text-danger"></i></h1>
+              <h5>software development course</h5>
+              <p>this is the course which are providing the free development knowledge of software</p>
+            </div>
+            <div class="col-3 text-center mt-5"><h1><i class="bi bi-filetype-java text-success""></i></h1>
+              <h5>Full stack java development Couress</h5>
+              <p>this is the course which are providing the free development knowledge of java</p><br>
+            </div>
+        </div>
+
+        <hr></hr>
+        <!--growth-->
+        <div class="row mt-5 justify-content-evenly" >
+          <div class="col-md-5"><img src="img/growth.jpg" class="img-fluid" alt=""></div>
+          <div class="col-5">
+            <h5 class="mt-2"> web site development course sucess rate</h5>
+
+            <div class="progress " role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 60%">60%</div>
+          </div>
+          <h5 class="mt-3"> software development course sucess rate</h5>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+          </div>
+          <h5 class="mt-3"> marketing  course sucess rate</h5>
+          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning text-dark " style="width: 75%">75%</div>
+          </div>
+
+          <h5 class="mt-3"> java developer course sucess rate</h5>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+          </div></div>
+        </div><br><br>
+
+        <!--contact-->
+        <div class="row justify-content-evenly pt-2 pb-5" style="background-color: rgb(197, 204, 216);">
+          <div class="col-5 mt-5" >
+            <h3 class="mb-4">Contact form</h3>
+            <form action="connect">
+              <div class="mb-3" id="scroll">
+                <label for="name" class="form-label" id="scroll">Full name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" name="name">
+                
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label" >Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+            
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+          </div>
+          <div class="col-5 mt-5">
+            <h3 class="md-4">Address</h3>
+            <p>karvenage pune line number 6 pune-441152</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15135.445739294222!2d73.80997564660088!3d18.489934671560082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfe79bf771d7%3A0xac81e25be4cc4bf!2sKarve%20Nagar%2C%20Pune%2C%20Maharashtra%20411052!5e0!3m2!1sen!2sin!4v1695149685295!5m2!1sen!2sin" style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <!--FAQ-->
+        <div class="row justify-content-evenly pt-5 pb-5">
+          <div class="col-10 ">
+            <h3 class="text-center pb-4">FQA</h3>
+            <div class="accordion accordion-flush border" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--footer-->
+        <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5" >
+          <div class="col-3 pt-4">
+            <h5>Information of course</h5>
+            <p>ths is the course which are teach you web development, java development topic in short intervel of the time</p>
+          </div>
+          <div class="col-3 pt-4">
+            <h5 class="pb-2">important links</h5>
+            <p>
+              <a href="#" class="link-light text-decoration-none">Home</a><br>
+              <a href="#" class="link-light text-decoration-none">About us</a><br>
+              <a href="#" class="link-light text-decoration-none">contact us</a><br>
+              <a href="#" class="link-light text-decoration-none">Services</a><br>
+            </p>
+          </div>
+          <div class="col-3 pt-4">
+            <h5 class="pb-2">Contact Us</h5>
+            <p>karvenage pune line number 6 pune-441152</p>
+          </div>
+        </div>
+        <!--copy right-->
+        <div class="row bg-secondary text-white text-center p-2">
+          <div class="col-12">
+            <p>copyright 1990-2023 by computer</p>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      
+
+
+</body>
+</html>
